@@ -5,7 +5,7 @@
 int main()
 {
     float degree=0;
-    printf("请输入摄氏度/n")
+    printf("请输入摄氏度");
     scanf("%f",&degree);
     float fahdegree=degree*5/9+32;
     printf("它的华氏度为%f",fahdegree);
@@ -14,4 +14,5 @@ int main()
 
 
 }
+
 
